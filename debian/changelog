@@ -1,5 +1,31 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-aalpar-deheap (1.0-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 1.0-2.
+  * Set upstream metadata fields: Repository-Browse.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 08 Dec 2022 00:55:55 +0000
+
+golang-github-aalpar-deheap (1.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-aalpar-deheap-dev: Add Multi-Arch:
+    foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 25 Nov 2022 23:34:16 +0000
+
+golang-github-aalpar-deheap (1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Standards-Version: 4.6.1
+  * update debian/watch for tagged releases
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 08 Nov 2022 23:25:50 +0100
+
+golang-github-aalpar-deheap (0.0~git20200318.9a0c288-1) unstable; urgency=medium
+
+  * Initial release (Closes: #969496)
+
+ -- Sergio Durigan Junior <sergiodj@debian.org>  Thu, 03 Sep 2020 15:05:49 -0400
